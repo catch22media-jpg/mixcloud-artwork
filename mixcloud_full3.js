@@ -1,4 +1,5 @@
-  const sleep = (t) => new Promise((r) => setTimeout(r, t));
+(async () => {
+const sleep = (t) => new Promise((r) => setTimeout(r, t));
   const setVal = (el, v) => {
     if (!el) return;
     const p = Object.getPrototypeOf(el);
@@ -346,4 +347,5 @@ if (publishBtn && isVisible(publishBtn)) {
 }
 
 })(); // 👈 add this line
+
 
