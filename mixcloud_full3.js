@@ -344,3 +344,5 @@ if (publishBtn && isVisible(publishBtn)) {
 } else {
   console.warn("⚠️ Couldn't find Publish button.");
 }
+
+})(); // 👈 add this line
